@@ -1,0 +1,14 @@
+names:
+- player-back
+- player-front
+- tennis-ball
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: object-detection-iqd6e
+  url: https://universe.roboflow.com/tennistracker-dogbm/object-detection-iqd6e/dataset/6
+  version: 6
+  workspace: tennistracker-dogbm
+test: ../test/images
+train: object-detection-6/train/images
+val: object-detection-6/valid/images
